@@ -1,0 +1,9 @@
+let recipeSteps = [
+    { description: "Preheat oven to 350°F", duration: "5 minutes" },
+    { description: "Mix dry ingredients", duration: "10 minutes" },
+    { description: "Add wet ingredients and stir", duration: "15 minutes" }
+];
+
+for (let i = 0; i < recipeSteps.length; i++) {
+    console.log("Step:", recipeSteps[i].description, "| Duration:", recipeSteps[i].duration);
+}
